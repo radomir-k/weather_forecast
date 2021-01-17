@@ -29,6 +29,14 @@ body {
     color: rgb(255, 255, 255, 1);
 }
 
+.vidget_block {
+    display: block;
+    box-sizing: border-box;
+    font-size: 0;
+    border: rgb(255, 255, 255, 1) solid 2px;
+    background-color: rgb(128, 128, 128, 1);
+}
+
 h3 {
     font-family: 'Comfortaa_Regular';
     font-size: 24px;
@@ -37,12 +45,13 @@ h3 {
     text-align: center;
 }
 
-.vidget_block {
-    display: block;
-    box-sizing: border-box;
-    font-size: 0;
-    border: rgb(255, 255, 255, 1) solid 2px;
-    background-color: rgb(128, 128, 128, 1);
+h4 {
+    font-family: 'Comfortaa_Regular';
+    font-size: 24px;
+    line-height: 2;
+    color: rgb(128, 128, 128, 1);
+    text-shadow: 1px 1px 0px #fff, 2px 2px 0px rgba(0,0,0,0.15);
+    text-align: center;
 }
 
 .item_1 {
@@ -135,6 +144,7 @@ h3 {
 
 li:hover {
     opacity: 0.6;
+    transition: .7s;
 }
 
 .footer_text {
