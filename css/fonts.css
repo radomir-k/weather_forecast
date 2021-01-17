@@ -1,0 +1,26 @@
+/* Connecting fonts */
+@font-face {
+    font-family: 'Judson-Regular';
+    src: url(/fonts/Judson-Regular.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa_Regular';
+    src: url(/fonts/Comfortaa_Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'weathericons';
+    src: url(/fonts/weathericons-regular-webfont.eot);
+    src: url(/fonts/weathericons-regular-webfont.eot?#iefix) format('embedded-opentype'),
+    url(/fonts/weathericons-regular-webfont.woff2) format('woff2'),
+    url(/fonts/weathericons-regular-webfont.woff) format('woff'),
+    url(/fonts/weathericons-regular-webfont.ttf) format('truetype'),
+    url(/font/weathericons-regular-webfont.svg#weather_iconsregular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
